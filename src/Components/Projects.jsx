@@ -51,6 +51,8 @@ const Projects = () => {
 
     const podDescription = 'A podcast Web Application that a user can login and view available shows, user can filter and sort shows and also like favourites and they are stored to supabase so they can be shared across devices.'
 
+    const devReactStoreDesc = 'A web developer book collection web application, where you can view the latest added list of books, a list of all the books available on the platform and also be able to add a book to the platform.'
+
     return (
         <>
         <Container maxWidth="md">
@@ -76,6 +78,13 @@ const Projects = () => {
                     description={podDescription}
                     githubLink={'https://github.com/katlegomaphango/KATMAP076_FTO2301_GroupB_KatlegoMaphango_DWACapstone'}
                     liveLink={'https://plug-n-play-pod.netlify.app'}
+                />
+                <ProjectCard
+                    imageStr={'/assets/projects/devReactStore.png'}
+                    name={"Web Dev Book Store"}
+                    description={devReactStoreDesc}
+                    githubLink={'https://github.com/katlegomaphango/Web-dev-book-store/tree/main/react-store'}
+                    liveLink={'https://kat-dev-store.netlify.app/'}
                 />
             </Box>
         </Container>
