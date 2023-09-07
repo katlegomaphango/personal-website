@@ -1,7 +1,7 @@
 import styled from "@emotion/styled"
 import { Box, Paper, Typography } from "@mui/material"
 import { theme } from "../theme"
-import { GitHub, LinkedIn, Mail, Phone } from "@mui/icons-material"
+import { GitHub, LinkedIn, Mail, Phone, Twitter } from "@mui/icons-material"
 
 const MainBox = styled(Box)({
     background: theme.palette.primary.dark,
@@ -52,6 +52,13 @@ const Contact = () => {
                                 style={{color: theme.palette.primary.contrastText}}
                             >
                                 <LinkedIn sx={{fontSize: '2.5rem'}} />
+                            </a>
+                            <a href="https://twitter.com/mmmm23q1"
+                                rel="noreferrer"
+                                target="_blank"
+                                style={{color: theme.palette.primary.contrastText}}
+                            >
+                                <Twitter sx={{fontSize: '2.5rem'}} />
                             </a>
                         </Box>
                     </Paper>
