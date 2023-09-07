@@ -12,7 +12,7 @@ const About = () => {
     }
 
     return (
-        <Container maxWidth="md" sx={{mb: 15}}>
+        <Container maxWidth="md" sx={{mb: 15, mt: 15}}>
             <Accordion 
                 expanded={expand === 'panel1'} 
                 onChange={handleChange('panel1')}
