@@ -38,7 +38,7 @@ const Hero = () => {
                 Hi, I'm Katlego.
             </StyledTitle>
             <StyledSubTitle variant="h3">
-                I'm a Software Developer based in Bloemfontein.
+                I'm a Software Developer based in Pretoria.
             </StyledSubTitle>
             <BoxImage>
                 <img style={{width: '100%', height: '100%'}} src="/hero.JPG" />
