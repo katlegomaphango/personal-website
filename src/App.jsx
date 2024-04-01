@@ -4,7 +4,7 @@ import './App.css'
 import styled from '@emotion/styled'
 import {theme} from './theme'
 import { About, Contact, Footer, Hero, Projects, Toolbox } from './Components'
-import resume from '../public/resume.pdf'
+import resume from '../public/KatlegoMaphangoResume.pdf'
 
 
 const MainContainer = styled(Box)({
