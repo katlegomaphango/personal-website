@@ -93,6 +93,12 @@ const Toolbox = () => {
                     </Box>
                     <Typography sx={{textAlign: 'center'}}>Figma</Typography>
                 </CardBox>
+                <CardBox>
+                    <Box>
+                        <img src="/assets/logos/Jasmine.svg" style={{width: '100%', height: '5rem'}} />
+                    </Box>
+                    <Typography sx={{textAlign: 'center'}}>Jasmine</Typography>
+                </CardBox>
             </ListContainer>
         </MainBox>
         </>
