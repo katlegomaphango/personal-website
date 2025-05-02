@@ -45,13 +45,12 @@ const StyledTitle = styled(Typography)({
 })
 
 const Projects = () => {
-    const kitchenDescription = 'A web App that tracks customer orders from when they are taken until they are served to the customer. It also records the table number and the exact time that the order was created.'
-
-    const bookConnectDesc = 'A web App that shows a list of Books, when a book is clicked a summary of the book is shown. The user can filter the books by the title, genre and/or author and the user can toggle between dark and light modes.'
-
+    const semitone = "JamBuddy web App tool to help users practice identifying the number of semitones between two musical notes. It involves generating or setting note pairs, and checking if the user's guess for the semitone distance is correct."
+    const memoryGame = "This project is about creating a single-player Memory Game web app with a fixed-size board and hidden matching pairs. It must be built using TDD with unit tests, mocks, and spies to verify DOM updates and game behavior."
     const podDescription = 'A podcast Web Application that a user can login and view available shows, user can filter and sort shows and also like favourites and they are stored to supabase so they can be shared across devices.'
-
     const devReactStoreDesc = 'A web developer book collection web application, where you can view the latest added list of books, a list of all the books available on the platform and also be able to add a book to the platform.'
+    const kitchenDescription = 'A web App that tracks customer orders from when they are taken until they are served to the customer. It also records the table number and the exact time that the order was created.'
+    const bookConnectDesc = 'A web App that shows a list of Books, when a book is clicked a summary of the book is shown. The user can filter the books by the title, genre and/or author and the user can toggle between dark and light modes.'
 
     return (
         <>
@@ -59,18 +58,18 @@ const Projects = () => {
             <StyledTitle variant="h3">Recent Projects</StyledTitle>
             <Box sx={{display: 'flex', flexWrap: 'wrap', gap: 3, justifyContent: 'center', alignItems: 'center'}}>
                 <ProjectCard 
-                    imageStr={'/assets/projects/resturant.png'} 
-                    name={'Kitchen Express'}
-                    description={kitchenDescription}
-                    githubLink={'https://github.com/katlegomaphango/IWA-18'}
-                    liveLink={'https://kat-kitchen-express.netlify.app'}
+                    imageStr={'/assets/projects/memory-game.png'}
+                    name={"Memory Game"}
+                    description={memoryGame}
+                    githubLink={'https://github.com/katlegomaphango/umuzi-projects/tree/main/memory-game'}
+                    liveLink={'https://katnetlify-memory-game.netlify.app/'}
                 />
-                <ProjectCard
-                    imageStr={'/assets/projects/book-connect.png'}
-                    name={'Book Connect'}
-                    description={bookConnectDesc}
-                    githubLink={'https://github.com/katlegomaphango/KATMAP076_FTO2301_GroupB_KatlegoMaphango_ITW19'}
-                    liveLink={'https://kat-book-connect.netlify.app'}
+                <ProjectCard 
+                    imageStr={'/assets/projects/semitone.png'}
+                    name={"Semitone Difference"}
+                    description={semitone}
+                    githubLink={'https://github.com/katlegomaphango/umuzi-projects/tree/main/semitone-difference'}
+                    liveLink={'https://katnetlify-semitone-difference.netlify.app/'}
                 />
                 <ProjectCard
                     imageStr={'/assets/projects/podcast.png'}
@@ -85,6 +84,20 @@ const Projects = () => {
                     description={devReactStoreDesc}
                     githubLink={'https://github.com/katlegomaphango/Web-dev-book-store/tree/main/react-store'}
                     liveLink={'https://kat-dev-store.netlify.app/'}
+                />
+                <ProjectCard 
+                    imageStr={'/assets/projects/resturant.png'} 
+                    name={'Kitchen Express'}
+                    description={kitchenDescription}
+                    githubLink={'https://github.com/katlegomaphango/IWA-18'}
+                    liveLink={'https://kat-kitchen-express.netlify.app'}
+                />
+                <ProjectCard
+                    imageStr={'/assets/projects/book-connect.png'}
+                    name={'Book Connect'}
+                    description={bookConnectDesc}
+                    githubLink={'https://github.com/katlegomaphango/KATMAP076_FTO2301_GroupB_KatlegoMaphango_ITW19'}
+                    liveLink={'https://kat-book-connect.netlify.app'}
                 />
             </Box>
         </Container>
