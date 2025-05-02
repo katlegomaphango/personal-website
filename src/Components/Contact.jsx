@@ -28,13 +28,6 @@ const Contact = () => {
                             sx={{display: 'flex', gap: 1}}
                             py={1}
                         >
-                            <Phone />
-                            +27 (68) 588 2974
-                        </Box>
-                        <Box
-                            sx={{display: 'flex', gap: 1}}
-                            py={1}
-                        >
                             <Mail />
                             <a href="mailto:mphangokatlego08@gmail.com" style={{color: 'black'}}>mphangokatlego08@gmail.com</a>
                         </Box>
@@ -52,13 +45,6 @@ const Contact = () => {
                                 style={{color: theme.palette.primary.contrastText}}
                             >
                                 <LinkedIn sx={{fontSize: '2.5rem'}} />
-                            </a>
-                            <a href="https://twitter.com/mmmm23q1"
-                                rel="noreferrer"
-                                target="_blank"
-                                style={{color: theme.palette.primary.contrastText}}
-                            >
-                                <Twitter sx={{fontSize: '2.5rem'}} />
                             </a>
                         </Box>
                     </Paper>
